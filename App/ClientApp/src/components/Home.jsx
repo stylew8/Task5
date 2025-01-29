@@ -68,14 +68,13 @@ const App = () => {
     return (
         <div className="container mt-4">
             <h2 className="mb-4 text-center">Books</h2>
-            <div className="card p-3 mb-4">
+            <div className="card p-3 mb-4 sticky-top">
                 <div className="row g-3 align-items-center">
                     <div className="col-md-3">
                         <label className="form-label">Language</label>
                         <select className="form-select" value={language} onChange={(e) => setLanguage(e.target.value)}>
                             <option value="en">English (USA)</option>
                             <option value="de">German (Germany)</option>
-                            <option value="fr">French (France)</option>
                             <option value="es">Spanish (Spain)</option>
                             <option value="it">Italian (Italy)</option>
                         </select>

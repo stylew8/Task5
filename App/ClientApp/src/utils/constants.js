@@ -1,4 +1,5 @@
-﻿export const API_URL = "api/books";
+﻿//export const API_URL = "api/books";
+export const API_URL = "https://localhost:7009/api/books";
 export const DEFAULT_LANGUAGE = "en";
 export const DEFAULT_SEED = 42;
 export const DEFAULT_LIKES = 5;
