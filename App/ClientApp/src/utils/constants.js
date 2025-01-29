@@ -1,0 +1,13 @@
+﻿export const API_URL = "api/books";
+export const DEFAULT_LANGUAGE = "en";
+export const DEFAULT_SEED = 42;
+export const DEFAULT_LIKES = 5;
+export const DEFAULT_REVIEWS = 5;
+export const DEFAULT_HAS_MORE = true;
+export const DEFAULT_EXPANDED_BOOK = null;
+export const DEFAULT_BOOKS = [];
+export const DEFAULT_PAGE = 1;
+export const PAGE_SIZE = 20;
+export const TABLE_VIEW_NAME = "table";
+export const GALLERY_VIEW_NAME = "gallery";
+export const FILE_NAME_CSV = "book_csv_";
